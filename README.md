@@ -1,8 +1,16 @@
 # MNIST_deeplearning_recognition
 Deeplearning model trained with Keras and Tensorflow to recognise the MNIST dataset.
 
-Best model is an combination of 2 CNNs with 99.68% and 99.67% accuracy respectively, which with an average ensemble prediction reaches 99.79%.
-For more information and in-depth metrics, check the `Model Performance` EXCEL file present in the root directory.
+1) First Best-Performing Network Architecture (Ensemble):
+![plot_cnn_ensemble_mnist_99 79](https://user-images.githubusercontent.com/94687473/223833048-c10f7d0d-b209-458a-8641-80001db79f81.png)
+
+2) Second Best-Performing Network Architecture (Ensemble)
+![plot_cnn_ensemble_mnist_99 79_2](https://user-images.githubusercontent.com/94687473/223833527-0c5da6f4-ad53-4ad7-ab3a-e7c21646c2e0.png)
+
+Both of the shown architectures perform the same, at 99.71% accuracy.
+For more information and in-depth metrics, check the `Model Performance` EXCEL file present in the root directory or check the following table:
+![Screenshot 2023-03-08 185400](https://user-images.githubusercontent.com/94687473/223833776-2ae21fc3-5aa2-407f-b9fe-ec72f8d7e37e.png)
+
 
 Resources:
 1) https://towardsdatascience.com/setting-up-tensorflow-gpu-with-cuda-and-anaconda-onwindows-2ee9c39b5c44
